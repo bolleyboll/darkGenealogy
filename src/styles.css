@@ -2,9 +2,9 @@
   font-size: 24px;
   font-family: 'Kumbh Sans', sans-serif;
   --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #131614;
-  --bg-secondary: #141418;
+  --text-secondary: #9A7C3E;
+  --bg-primary: #171a18;
+  --bg-secondary: #093943;
   --transition-speed: 600ms;
 }
 
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #b6958a;
+  background: var(--text-secondary);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 3rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .navbar {
@@ -62,7 +62,7 @@ main {
   height: 680px;
   display: block;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 32px;
 }
 
 .header {
